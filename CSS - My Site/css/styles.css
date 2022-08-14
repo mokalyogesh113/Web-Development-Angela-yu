@@ -44,7 +44,28 @@ p {
 
 .middle-container {}
 
+.skill-row {
+  width: 50%;
+  line-height: 2;
+  margin: 100px auto;
+  text-align: left;
+}
+
 .bottom-container {}
+
+.img-skill {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.img0 {
+  /* background-color: grey; */
+  /* border-radius: 50%; */
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+} 
 
 .top-cloud {
   position: absolute;
@@ -55,19 +76,13 @@ p {
 .bottom-cloud {
   position: absolute;
 }
+.img-skill {
+  width: 100px;
+
+}
 
 .img-profile {
   width: 250px;
   border-radius: 50%;
 }
 
-.img-skill {
-  width: 100px;
-
-}
-
-.img0 {
-  background-color: grey;
-  border-radius: 50%;
-  width: 100px;
-}
